@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visa Services | A & I GLOBAL</title>
+    <meta name="description" content="Expert global visa assistance, including student, work, and tourist visas, by A & I Global.">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = { theme: { extend: {} } }
+    </script>
+    <link rel="stylesheet" href="style.css">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</head>
+<body class="bg-cyan-50/30 text-slate-800 antialiased selection:bg-blue-200 selection:text-blue-900">
+
+    <!-- Navbar -->
+    <nav id="navbar" class="fixed w-full z-50 transition-all duration-300 bg-transparent py-4 text-white">
+        <!-- Re-use Navbar inner from other pages -->
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-12">
+                <div class="flex-shrink-0 flex items-center">
+                    <a href="index.html" class="nav-logo text-3xl font-extrabold tracking-tight font-serif uppercase cursor-pointer">
+                        A & I <span class="text-blue-500">Global</span>
+                    </a>
+                </div>
+                <div class="hidden md:ml-10 md:flex md:items-center md:space-x-8">
+                    <a href="index.html" class="nav-link font-medium hover:text-blue-400 transition">Home</a>
+                    <a href="translation-services.html" class="nav-link font-medium hover:text-blue-400 transition">Translation</a>
+                    <a href="visa-services.html" class="nav-link font-medium text-blue-400 transition">Visa Services</a>
+                    <a href="about.html" class="nav-link font-medium hover:text-blue-400 transition">About Us</a>
+                    <a href="contact.html" class="ml-4 px-6 py-2.5 rounded-full btn-primary text-white font-semibold shadow-lg shadow-blue-500/30">Get Started</a>
+                </div>
+                <div class="-mr-2 flex items-center md:hidden">
+                    <button id="mobile-menu-button" type="button" class="menu-icon inline-flex items-center justify-center p-2 rounded-md hover:text-blue-400 transition-colors">
+                        <ion-icon name="menu-outline" class="text-3xl"></ion-icon>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <!-- Mobile Menu Inner -->
+        <div id="mobile-menu" class="md:hidden hidden bg-white shadow-xl absolute w-full left-0 top-full">
+            <div class="px-4 pt-2 pb-6 space-y-2 sm:px-6">
+                <a href="index.html" class="block px-3 py-3 rounded-md text-base font-medium text-slate-600">Home</a>
+                <a href="translation-services.html" class="block px-3 py-3 rounded-md text-base font-medium text-slate-600">Translation</a>
+                <a href="visa-services.html" class="block px-3 py-3 rounded-md text-base font-semibold text-blue-600 bg-blue-50">Visa Services</a>
+                <a href="about.html" class="block px-3 py-3 rounded-md text-base font-medium text-slate-600">About Us</a>
+                <a href="contact.html" class="block px-3 py-3 mt-4 text-center rounded-lg btn-primary text-white font-semibold">Contact Us</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <div class="relative pt-32 pb-24 lg:pt-48 lg:pb-32 overflow-hidden bg-slate-900 border-b border-slate-800">
+        <div class="absolute inset-0">
+            <img class="w-full h-full object-cover opacity-30 mix-blend-overlay" src="https://images.unsplash.com/photo-1588691880486-559d74776100?auto=format&fit=crop&q=80" alt="Visa Background">
+            <div class="absolute inset-0 bg-gradient-to-b from-transparent to-slate-900"></div>
+            <div class="absolute inset-0 hero-overlay-visa"></div>
+        </div>
+        <div class="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center fade-in-up">
+            <h1 class="text-5xl md:text-7xl font-extrabold text-white tracking-tight mb-6 font-serif">
+                Global <span class="text-cyan-400">Visa Services</span>
+            </h1>
+            <p class="mt-4 max-w-2xl text-xl md:text-2xl text-slate-200 mx-auto font-light">
+                Your pathway to international opportunities. Expert processing and unparalleled success rates.
+            </p>
+        </div>
+    </div>
+
+    <!-- Visa Categories -->
+    <section class="py-24">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-10">
+                <!-- Visas -->
+                <div class="bg-white p-10 rounded-3xl shadow-xl hover-scale border border-slate-100 fade-in-up">
+                    <div class="w-16 h-16 bg-blue-100 text-blue-600 rounded-2xl flex items-center justify-center mb-6">
+                        <ion-icon name="school-outline" class="text-3xl"></ion-icon>
+                    </div>
+                    <h3 class="text-2xl font-bold font-serif mb-4 text-slate-900">Student Visas</h3>
+                    <p class="text-slate-600 leading-relaxed mb-6">
+                        Pursue your academics abroad with confidence. We handle university admissions guidance, proof of funds documentation, and embassy interviews smoothly.
+                    </p>
+                    <a href="contact.html" class="text-blue-600 font-semibold hover:text-blue-800 transition">Apply Now &rarr;</a>
+                </div>
+                <!-- Visas -->
+                <div class="bg-white p-10 rounded-3xl shadow-xl hover-scale border border-slate-100 fade-in-up delay-100">
+                    <div class="w-16 h-16 bg-cyan-100 text-cyan-600 rounded-2xl flex items-center justify-center mb-6">
+                        <ion-icon name="briefcase-outline" class="text-3xl"></ion-icon>
+                    </div>
+                    <h3 class="text-2xl font-bold font-serif mb-4 text-slate-900">Work Visas</h3>
+                    <p class="text-slate-600 leading-relaxed mb-6">
+                        Expedite your global career. From employer sponsorships to skilled worker pathways (PR/Express Entry), our experts navigate complex bureaucratic requirements.
+                    </p>
+                    <a href="contact.html" class="text-blue-600 font-semibold hover:text-blue-800 transition">Apply Now &rarr;</a>
+                </div>
+                <!-- Visas -->
+                <div class="bg-white p-10 rounded-3xl shadow-xl hover-scale border border-slate-100 fade-in-up delay-200">
+                    <div class="w-16 h-16 bg-green-100 text-green-600 rounded-2xl flex items-center justify-center mb-6">
+                        <ion-icon name="airplane-outline" class="text-3xl"></ion-icon>
+                    </div>
+                    <h3 class="text-2xl font-bold font-serif mb-4 text-slate-900">Tourist & Visit Visas</h3>
+                    <p class="text-slate-600 leading-relaxed mb-6">
+                        Focus on planning your itinerary while we handle the paperwork. Fast-track processing, itinerary building, and document vetting for tourist destinations worldwide.
+                    </p>
+                    <a href="contact.html" class="text-blue-600 font-semibold hover:text-blue-800 transition">Apply Now &rarr;</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Popular Destinations Slider/Grid -->
+    <section class="py-20 bg-slate-900 border-t border-slate-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center fade-in-up">
+            <h2 class="text-3xl font-bold font-serif text-white mb-12">Top Destinations</h2>
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-8">
+                <!-- Destinations -->
+                <div class="relative rounded-2xl overflow-hidden h-64 group">
+                    <img src="https://images.unsplash.com/photo-1496442226666-8d4d0e62e6e9?auto=format&fit=crop&q=80" alt="USA" class="w-full h-full object-cover transition duration-500 group-hover:scale-110">
+                    <div class="absolute inset-0 bg-black bg-opacity-40 group-hover:bg-opacity-20 transition duration-500"></div>
+                    <div class="absolute bottom-4 left-4 text-white text-2xl font-bold font-serif">USA</div>
+                </div>
+                <div class="relative rounded-2xl overflow-hidden h-64 group">
+                    <img src="https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?auto=format&fit=crop&q=80" alt="UK" class="w-full h-full object-cover transition duration-500 group-hover:scale-110">
+                    <div class="absolute inset-0 bg-black bg-opacity-40 group-hover:bg-opacity-20 transition duration-500"></div>
+                    <div class="absolute bottom-4 left-4 text-white text-2xl font-bold font-serif">United Kingdom</div>
+                </div>
+                <div class="relative rounded-2xl overflow-hidden h-64 group">
+                    <img src="https://images.unsplash.com/photo-1506973035872-a4ec16b8e8d9?auto=format&fit=crop&q=80" alt="Australia" class="w-full h-full object-cover transition duration-500 group-hover:scale-110">
+                    <div class="absolute inset-0 bg-black bg-opacity-40 group-hover:bg-opacity-20 transition duration-500"></div>
+                    <div class="absolute bottom-4 left-4 text-white text-2xl font-bold font-serif">Australia</div>
+                </div>
+                <div class="relative rounded-2xl overflow-hidden h-64 group">
+                    <img src="https://images.unsplash.com/photo-1503899036084-c55cdd92da26?auto=format&fit=crop&q=80" alt="Canada" class="w-full h-full object-cover transition duration-500 group-hover:scale-110">
+                    <div class="absolute inset-0 bg-black bg-opacity-40 group-hover:bg-opacity-20 transition duration-500"></div>
+                    <div class="absolute bottom-4 left-4 text-white text-2xl font-bold font-serif">Canada</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer ... same as index for consistency ... -->
+    <footer class="bg-slate-950 text-slate-300 py-16 border-t border-slate-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <p>&copy; 2026 A & I Global. All rights reserved.</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

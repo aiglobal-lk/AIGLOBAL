@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us | A & I GLOBAL</title>
+    <meta name="description" content="Learn about A & I Global, our mission, vision, and the premium team behind our world-class translation and visa services.">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        brand: {
+                            50: '#f0fdfa',
+                            100: '#ccfbf1',
+                            500: '#14b8a6',
+                            900: '#134e4a',
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    <link rel="stylesheet" href="style.css">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</head>
+<body class="bg-slate-50 text-slate-800 antialiased selection:bg-blue-200 selection:text-blue-900">
+
+    <!-- Navbar -->
+    <nav id="navbar" class="fixed w-full z-50 transition-all duration-300 bg-transparent py-4 text-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-12">
+                <div class="flex-shrink-0 flex items-center">
+                    <a href="index.html" class="nav-logo text-3xl font-extrabold tracking-tight font-serif uppercase cursor-pointer">
+                        A & I <span class="text-blue-500">Global</span>
+                    </a>
+                </div>
+                <div class="hidden md:ml-10 md:flex md:items-center md:space-x-8">
+                    <a href="index.html" class="nav-link font-medium hover:text-blue-400 transition transform hover:scale-105">Home</a>
+                    <a href="translation-services.html" class="nav-link font-medium hover:text-blue-400 transition transform hover:scale-105">Translation</a>
+                    <a href="visa-services.html" class="nav-link font-medium hover:text-blue-400 transition transform hover:scale-105">Visa Services</a>
+                    <a href="about.html" class="nav-link font-medium hover:text-blue-400 transition transform hover:scale-105">About Us</a>
+                    <a href="contact.html" class="ml-4 px-6 py-2.5 rounded-full btn-primary text-white font-semibold shadow-lg shadow-blue-500/30">
+                        Get Started
+                    </a>
+                </div>
+                <div class="-mr-2 flex items-center md:hidden">
+                    <button id="mobile-menu-button" type="button" class="menu-icon inline-flex items-center justify-center p-2 rounded-md hover:text-blue-400 hover:bg-slate-800/20 focus:outline-none transition-colors">
+                        <span class="sr-only">Open main menu</span>
+                        <ion-icon name="menu-outline" class="text-3xl"></ion-icon>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div id="mobile-menu" class="md:hidden hidden bg-white shadow-xl border-t border-slate-100 absolute w-full left-0 top-full">
+            <div class="px-4 pt-2 pb-6 space-y-2 sm:px-6">
+                <a href="index.html" class="block px-3 py-3 rounded-md text-base font-medium text-slate-600 hover:text-blue-600 hover:bg-blue-50 transition">Home</a>
+                <a href="translation-services.html" class="block px-3 py-3 rounded-md text-base font-medium text-slate-600 hover:text-blue-600 hover:bg-blue-50 transition">Translation</a>
+                <a href="visa-services.html" class="block px-3 py-3 rounded-md text-base font-medium text-slate-600 hover:text-blue-600 hover:bg-blue-50 transition">Visa Services</a>
+                <a href="about.html" class="block px-3 py-3 rounded-md text-base font-semibold text-slate-800 hover:text-blue-600 hover:bg-blue-50 transition">About Us</a>
+                <a href="contact.html" class="block px-3 py-3 mt-4 text-center rounded-lg btn-primary text-white font-semibold">Contact Us</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <div class="relative pt-32 pb-20 lg:pt-48 lg:pb-32 overflow-hidden bg-slate-900 border-b border-slate-800">
+        <div class="absolute inset-0">
+            <img class="w-full h-full object-cover opacity-20" src="https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&q=80" alt="About A&I Global Background">
+            <div class="absolute inset-0 bg-gradient-to-b from-transparent to-slate-900"></div>
+        </div>
+        <div class="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center fade-in-up">
+            <h1 class="text-5xl md:text-6xl font-extrabold text-white tracking-tight mb-6 font-serif">
+                About <span class="text-blue-500">A & I Global</span>
+            </h1>
+            <p class="mt-4 max-w-2xl text-xl text-slate-300 mx-auto font-light">
+                Connecting cultures, empowering individuals, and breaking down borders with excellence and integrity.
+            </p>
+            <div class="mt-8 flex justify-center">
+                <div class="w-24 h-1 bg-gradient-to-r from-blue-500 to-indigo-500 rounded-full"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Our Story Section -->
+    <section class="py-24 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+                <div class="fade-in-up">
+                    <img src="https://images.unsplash.com/photo-1600880292203-757bb62b4baf?auto=format&fit=crop&q=80" alt="Our Global Team" class="rounded-3xl shadow-2xl hover-scale">
+                </div>
+                <div class="fade-in-up delay-200">
+                    <span class="text-blue-600 font-bold tracking-widest uppercase text-sm mb-4 block">Our Story</span>
+                    <h2 class="text-4xl font-extrabold text-slate-900 font-serif mb-6 leading-tight">We Build Bridges<br>Not Barriers</h2>
+                    <p class="text-lg text-slate-600 mb-6 leading-relaxed">
+                        Founded on the principle that the world should be accessible to everyone, A & I Global started as a small consultancy. Today, we stand as a premier partner for thousands of individuals and corporations seeking reliable translation and visa services.
+                    </p>
+                    <p class="text-lg text-slate-600 mb-8 leading-relaxed">
+                        Our seasoned experts combine deep linguistic knowledge with intricate understanding of international immigration laws to ensure your journey is as smooth as possible. We don't just process paperwork; we pave the way for your global success.
+                    </p>
+                    
+                    <ul class="space-y-4">
+                        <li class="flex items-center text-slate-700">
+                            <ion-icon name="checkmark-circle" class="text-blue-500 text-2xl mr-3"></ion-icon> 
+                            <span class="font-medium">Uncompromising Quality & Accuracy</span>
+                        </li>
+                        <li class="flex items-center text-slate-700">
+                            <ion-icon name="checkmark-circle" class="text-blue-500 text-2xl mr-3"></ion-icon> 
+                            <span class="font-medium">Strict Confidentiality & Security</span>
+                        </li>
+                        <li class="flex items-center text-slate-700">
+                            <ion-icon name="checkmark-circle" class="text-blue-500 text-2xl mr-3"></ion-icon> 
+                            <span class="font-medium">Tailored and Personalized Approach</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Mission & Vision -->
+    <section class="py-24 bg-slate-50 relative">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
+                <!-- Mission -->
+                <div class="bg-white rounded-3xl p-10 shadow-xl hover-scale border border-slate-100 fade-in-up">
+                    <div class="w-16 h-16 bg-blue-100 text-blue-600 rounded-2xl flex items-center justify-center mb-8">
+                        <ion-icon name="flag-outline" class="text-3xl"></ion-icon>
+                    </div>
+                    <h3 class="text-3xl font-bold text-slate-900 font-serif mb-4">Our Mission</h3>
+                    <p class="text-slate-600 text-lg leading-relaxed">
+                        To empower global mobility and communication by providing flawless translation and seamless visa processing. We strive to eliminate the anxiety associated with international transitions, allowing our clients to focus on their goals.
+                    </p>
+                </div>
+                <!-- Vision -->
+                <div class="bg-white rounded-3xl p-10 shadow-xl hover-scale border border-slate-100 fade-in-up delay-200">
+                    <div class="w-16 h-16 bg-indigo-100 text-indigo-600 rounded-2xl flex items-center justify-center mb-8">
+                        <ion-icon name="eye-outline" class="text-3xl"></ion-icon>
+                    </div>
+                    <h3 class="text-3xl font-bold text-slate-900 font-serif mb-4">Our Vision</h3>
+                    <p class="text-slate-600 text-lg leading-relaxed">
+                        To be the world's most trusted and reliable gateway for cross-border opportunities. We envision a world where language and bureaucratic hurdles never stand in the way of human ambition and global collaboration.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="py-24 bg-gradient-to-r from-slate-900 to-indigo-900 text-center px-4">
+        <h2 class="text-4xl text-white font-serif font-bold mb-8 fade-in-up">Join Thousands of Satisfied Clients</h2>
+        <a href="contact.html" class="inline-block px-10 py-5 rounded-full btn-primary text-white font-bold text-lg shadow-2xl hover:shadow-[0_0_30px_rgba(59,130,246,0.5)] fade-in-up delay-100">Contact Us Today</a>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-slate-950 text-slate-300 py-16 border-t border-slate-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
+                <div>
+                    <a href="index.html" class="text-2xl font-extrabold tracking-tight font-serif uppercase text-white mb-6 inline-block">
+                        A & I <span class="text-blue-500">Global</span>
+                    </a>
+                    <p class="text-sm leading-relaxed mb-6">
+                        Your trusted partner for premium translation and global visa facilitation services. We break down language barriers and borders.
+                    </p>
+                    <div class="flex space-x-4">
+                        <a href="#" class="w-10 h-10 rounded-full bg-slate-800 flex items-center justify-center hover:bg-blue-600 hover:text-white transition-colors cursor-pointer"><ion-icon name="logo-facebook"></ion-icon></a>
+                        <a href="#" class="w-10 h-10 rounded-full bg-slate-800 flex items-center justify-center hover:bg-blue-400 hover:text-white transition-colors cursor-pointer"><ion-icon name="logo-twitter"></ion-icon></a>
+                        <a href="#" class="w-10 h-10 rounded-full bg-slate-800 flex items-center justify-center hover:bg-pink-600 hover:text-white transition-colors cursor-pointer"><ion-icon name="logo-instagram"></ion-icon></a>
+                        <a href="#" class="w-10 h-10 rounded-full bg-slate-800 flex items-center justify-center hover:bg-blue-700 hover:text-white transition-colors cursor-pointer"><ion-icon name="logo-linkedin"></ion-icon></a>
+                    </div>
+                </div>
+                <div>
+                    <h4 class="text-white font-bold text-lg mb-6 font-serif">Company</h4>
+                    <ul class="space-y-3">
+                        <li><a href="index.html" class="hover:text-blue-400 transition-colors">Home</a></li>
+                        <li><a href="about.html" class="text-blue-400">About Us</a></li>
+                        <li><a href="contact.html" class="hover:text-blue-400 transition-colors">Contact</a></li>
+                        <li><a href="#" class="hover:text-blue-400 transition-colors">Careers</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-white font-bold text-lg mb-6 font-serif">Services</h4>
+                    <ul class="space-y-3">
+                        <li><a href="translation-services.html" class="hover:text-blue-400 transition-colors">Document Translation</a></li>
+                        <li><a href="translation-services.html" class="hover:text-blue-400 transition-colors">Website Localization</a></li>
+                        <li><a href="visa-services.html" class="hover:text-blue-400 transition-colors">Student Visas</a></li>
+                        <li><a href="visa-services.html" class="hover:text-blue-400 transition-colors">Work Permits</a></li>
+                        <li><a href="visa-services.html" class="hover:text-blue-400 transition-colors">Tourist Visas</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-white font-bold text-lg mb-6 font-serif">Contact Us</h4>
+                    <ul class="space-y-4">
+                        <li class="flex items-start">
+                            <ion-icon name="location-outline" class="text-xl text-blue-500 mr-3 mt-1 flex-shrink-0"></ion-icon>
+                            <span>123 Global Business Towers,<br>Financial District, NY 10004</span>
+                        </li>
+                        <li class="flex items-center">
+                            <ion-icon name="call-outline" class="text-xl text-blue-500 mr-3 flex-shrink-0"></ion-icon>
+                            <span>+1 (555) 123-4567</span>
+                        </li>
+                        <li class="flex items-center">
+                            <ion-icon name="mail-outline" class="text-xl text-blue-500 mr-3 flex-shrink-0"></ion-icon>
+                            <span>hello@aiglobal.com</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="mt-16 pt-8 border-t border-slate-800 text-sm text-center">
+                <p>&copy; 2026 A & I Global. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
